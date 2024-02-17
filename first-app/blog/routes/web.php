@@ -15,7 +15,7 @@ use App\Http\Controllers\IndexController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', [IndexController::class, 'index']);
+Route::get('/page1/{nom}/{prenom}', [IndexController::class, 'index']);
 
 /* 
 Route::get('/', function () {
